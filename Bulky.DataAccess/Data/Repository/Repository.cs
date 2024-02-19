@@ -1,12 +1,10 @@
 ﻿
-using BulkyWeb.Data.Repository.IRepository;
-using BulkyWeb.Data;
+using Bulky.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
-using System.Text;
-using System.Threading.Tasks;
 using System.Linq.Expressions;
+using Bulky.DataAcess.Data;
 
-namespace BulkyWeb.Data.Repository
+namespace Bulky.DataAccess.Repository
 
 {
 	public class Repository<T> : IRepository <T> where T : class
